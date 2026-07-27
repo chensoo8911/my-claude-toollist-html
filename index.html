@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧰</text></svg>">
+<title>本機 Claude 工具清單</title>
+<style>
+:root{--bg:#0e0f13;--card:#181a20;--line:#262a33;--txt:#e7e9ee;--sub:#9aa2b1;--acc:#8b7cff;--ok:#3ecf8e;--warn:#f5b544;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,"PingFang TC","Noto Sans TC",system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:920px;margin:0 auto;padding:48px 20px 80px}
+header h1{font-size:26px;margin:0 0 6px}
+.meta{color:var(--sub);font-size:13px;margin-bottom:4px}
+h2{font-size:17px;margin:40px 0 14px;padding-left:10px;border-left:3px solid var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.cname{font-weight:700;font-size:15px;color:var(--acc)}
+.trig{font-size:12px;color:var(--sub);margin:4px 0;word-break:break-all}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.chip{font-size:12px;background:#232732;color:#c7ccd8;border:1px solid var(--line);border-radius:20px;padding:3px 10px;white-space:nowrap}
+.chip.acc{border-color:rgba(139,124,255,.5);color:var(--acc)}
+.cdesc{font-size:13px;color:var(--txt);margin-top:6px}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:420px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line)}
+th{background:#12141a;color:var(--sub);font-weight:600;font-size:12px}
+tr:last-child td{border-bottom:none}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:600}
+.badge{font-size:12px;padding:2px 9px;border-radius:20px;background:#2a2e38;color:var(--sub);white-space:nowrap;display:inline-block}
+.badge.ok{background:rgba(62,207,142,.15);color:var(--ok)}
+.badge.warn{background:rgba(245,181,68,.15);color:var(--warn)}
+footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(--line);padding-top:16px}
+.count{color:var(--sub);font-weight:400;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>🧰 本機 Claude 工具清單</h1>
+  <div class="meta">盤點日期 2026-07-27　｜　自動同步（本機工具有更新就重跑「盤點工具」）</div>
+  <div class="meta">🔒 僅含工具名稱與用途，不含任何密鑰或 API 串接資訊</div>
+</header>
+
+<h2>Skill · 自製 <span class="count">claude-＊／my-claude-＊ · 13 個</span></h2>
+<div class="grid">
+<div class="card">
+  <div class="cname">claude-command-push</div>
+  <div class="chips"><span class="chip acc">發版</span></div>
+  <div class="cdesc">git repo 發版自動化五步：CHANGELOG → commit → tag → push tag → GitHub Release，缺一不可。觸發詞：「發版」。</div>
+</div>
+<div class="card">
+  <div class="cname">claude-figma-svg-expand</div>
+  <div class="chips"><span class="chip acc">展開SVG</span></div>
+  <div class="cdesc">把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG。觸發詞：「展開SVG」。 作法：把硬陰影（drop shadow）烤成實體位移的幾何、文字外框化，讓匯出的 SVG 完全沒有 &lt;filter&gt;、feOffset、&lt;text&gt;——避免用 &lt;img&gt; 內嵌到 HTML 時陰影糊掉、多顆互相干</div>
+</div>
+<div class="card">
+  <div class="cname">claude-md-snapshot</div>
+  <div class="chips"><span class="chip acc">快照全md</span></div>
+  <div class="cdesc">把全域 CLAUDE.md 存一份日期快照（用 cp 複製，正本不動）。觸發詞：「快照全md」。</div>
+</div>
+<div class="card">
+  <div class="cname">claude-notify-sounds</div>
+  <div class="chips"><span class="chip acc">claude通知音效</span></div>
+  <div class="cdesc">安裝／設定／移除 Claude Code 的純音效 hook（「換你了」「需回應」兩個時機）。觸發詞：「claude通知音效」。僅 macOS。</div>
+</div>
+<div class="card">
+  <div class="cname">claude-obsidian-inbox</div>
+  <div class="chips"><span class="chip acc">加入ob</span><span class="chip acc">新增ob</span></div>
+  <div class="cdesc">把當下內容存成 .md 到 Obsidian 收件匣，對齊既有屬性 schema。觸發詞：「加入ob」「新增ob」。務必遵守使用者宣告的私人禁區。</div>
+</div>
+<div class="card">
+  <div class="cname">claude-ops</div>
+  <div class="chips"><span class="chip acc">大事SOP</span><span class="chip acc">自己跑完複雜任務</span><span class="chip acc">下單卡</span><span class="chip acc">①多步驟②可檢查③需迭代</span></div>
+  <div class="cdesc">一套讓 AI 助理「自己跑完複雜任務」的工作制度。適用時機：任務複雜／模糊／有交付物、要派 subagent 分工、使用者用「下單卡」交辦大事、或說「大事SOP」時。此外要主動判斷：當任務同時滿足「①多步驟（一次做不完）②可檢查（有辦法判斷好壞）③需迭代（第一版通常不夠好）」三判準至少兩項，主動向使用者提議套用本制度並附下單卡草稿，使用者點頭才進循環。核心：</div>
+</div>
+<div class="card">
+  <div class="cname">claude-sv-card</div>
+  <div class="chips"><span class="chip acc">做名片</span></div>
+  <div class="cdesc">StreetVoice 街聲名片自動化。觸發詞：「做名片」（需附簽呈 PDF，拖入或路徑）。四種版型依簽呈「名片版型」欄位自動分流，分流細節見本文。</div>
+</div>
+<div class="card">
+  <div class="cname">claude-tnbt-export</div>
+  <div class="chips"><span class="chip acc">大團出圖</span></div>
+  <div class="cdesc">TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程。觸發詞：「大團出圖」。 把一個 Figma session（page）內所有 section 的 frame 依規則匯出成 1x/2x JPG、特例 PNG， 做循環 GIF，並半自動封裝票口海報印刷檔。需要 Figma MCP、Adobe Illustrator（macOS）、Pyt</div>
+</div>
+<div class="card">
+  <div class="cname">claude-triple-brain</div>
+  <div class="chips"><span class="chip acc">部署三劍客</span><span class="chip acc">裝三劍客</span></div>
+  <div class="cdesc">部署「三劍客」終端機 AI 協作環境（小G Gemini ＋ 小L NotebookLM ＋ Claude 審查）。觸發詞：「部署三劍客」「裝三劍客」。僅 macOS + zsh。</div>
+</div>
+<div class="card">
+  <div class="cname">claude-whoami</div>
+  <div class="chips"><span class="chip acc">我誰</span><span class="chip acc">幫我寫 CLAUDE.md</span></div>
+  <div class="cdesc">把一句話的「你是誰＋規則」轉成完整 CLAUDE.md，存進目前資料夾。觸發詞：「我誰」「幫我寫 CLAUDE.md」。</div>
+</div>
+<div class="card">
+  <div class="cname">my-claude-self-audit</div>
+  <div class="chips"><span class="chip acc">制度健檢</span><span class="chip acc">規則體檢</span><span class="chip acc">進階玩家</span></div>
+  <div class="cdesc">全域顧問：質疑並強化使用者用 Claude 的方式，橫跨制度／工作流／工具適配／自動化四塊。觸發詞：「制度健檢」「規則體檢」「進階玩家」。唯讀分析＋給建議，實際改動一律先問過使用者。</div>
+</div>
+<div class="card">
+  <div class="cname">my-claude-toollist</div>
+  <div class="chips"><span class="chip acc">列工具清單</span><span class="chip acc">更新工具清單</span></div>
+  <div class="cdesc">盤點本機 skill／plugin／MCP 並更新工具清單網頁（GitHub Pages，僅供自用）。觸發詞：「列工具清單」「更新工具清單」。</div>
+</div>
+<div class="card">
+  <div class="cname">my-claude-uiai-learn</div>
+  <div class="chips"><span class="chip acc">加入詞彙</span><span class="chip acc">記知識庫</span><span class="chip acc">整理學習庫</span><span class="chip acc">X 是什麼？</span></div>
+  <div class="cdesc">UIAI 學習記錄工作流。觸發詞：「加入詞彙」「記知識庫」「整理學習庫」。另一明確觸發：使用者問「〈某詞〉是什麼？」→ 解答後自動把該詞記到 網頁大詞彙.md（「加入詞彙」＝主動記詞彙）；「記知識庫」＝確認範圍後把知識點記錄到 〔本機路徑〕 並自動歸類；「整理學習庫」＝統整既有筆記（合併去重、改檔名、重整分類）。任何寫入後都把學習庫鏡像同步到 Obsidia</div>
+</div>
+</div>
+
+<h2>Skill · 第三方 <span class="count">外部安裝 · 2 個</span></h2>
+<div class="grid">
+<div class="card">
+  <div class="cname">apple-hig-expert</div>
+  
+  <div class="cdesc">&quot;Audits and designs iOS/macOS/watchOS/visionOS interfaces against the Apple Human Interface Guidelines, including the Liquid Glass design language (announced WWDC25, shipped with i</div>
+</div>
+<div class="card">
+  <div class="cname">find-skills</div>
+  <div class="chips"><span class="chip acc">how do I do X</span><span class="chip acc">find a skill for X</span></div>
+  <div class="cdesc">Helps users discover and install agent skills when they ask questions like &quot;how do I do X&quot;, &quot;find a skill for X&quot;, &quot;is there a skill that can...&quot;, or express interest in extending c</div>
+</div>
+</div>
+
+<h2>Plugin <span class="count">已啟用 · 3 個</span></h2>
+<div class="tblwrap">
+<table>
+<thead><tr><th>Plugin</th><th>版本</th><th>來源 marketplace</th></tr></thead>
+<tbody>
+<tr><td class="mono">figma</td><td>2.2.81</td><td>claude-plugins-official</td></tr>
+<tr><td class="mono">frontend-design</td><td>unknown</td><td>claude-plugins-official</td></tr>
+<tr><td class="mono">ui-ux-pro-max</td><td>2.11.0</td><td>ui-ux-pro-max-skill</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Agent <span class="count">自製 7 個 · 內建 6 個</span></h2>
+<div class="tblwrap">
+<table>
+<thead><tr><th>Agent</th><th>來源</th><th>用途</th><th>工具權限</th></tr></thead>
+<tbody>
+<tr><td class="mono">content-quality-editor</td><td><span class="badge ok">自製</span></td><td>&quot;Use this agent before publishing any AI-generated content — blog posts, READMEs</td><td class="mono" style="font-weight:400;font-size:12px">Read, Write, Edit, Bash</td></tr>
+<tr><td class="mono">publish-safety-checker</td><td><span class="badge ok">自製</span></td><td>Fresh-context 發版安檢員</td><td class="mono" style="font-weight:400;font-size:12px">Read, Glob, Grep, Bash</td></tr>
+<tr><td class="mono">system-critic</td><td><span class="badge ok">自製</span></td><td>Fresh-context 制度質疑者（唱反調的那個）</td><td class="mono" style="font-weight:400;font-size:12px">Read, Glob, Grep, Bash, WebSearch, WebFetch</td></tr>
+<tr><td class="mono">ui-designer</td><td><span class="badge ok">自製</span></td><td>&quot;Use this agent when designing visual interfaces, creating design systems, build</td><td class="mono" style="font-weight:400;font-size:12px">Read, Write, Edit, Bash, Glob, Grep</td></tr>
+<tr><td class="mono">uiai-recorder</td><td><span class="badge ok">自製</span></td><td>UIAI 學習庫記錄員</td><td class="mono" style="font-weight:400;font-size:12px">Read, Edit, Write, Glob, Grep, Bash</td></tr>
+<tr><td class="mono">ux-researcher</td><td><span class="badge ok">自製</span></td><td>&quot;Use this agent when you need to conduct user research, analyze user behavior, o</td><td class="mono" style="font-weight:400;font-size:12px">Read, Grep, Glob, WebFetch, WebSearch</td></tr>
+<tr><td class="mono">verifier</td><td><span class="badge ok">自製</span></td><td>Fresh-context 驗收員（Maker-Checker 的 Checker）</td><td class="mono" style="font-weight:400;font-size:12px">Read, Glob, Grep, Bash</td></tr>
+<tr><td class="mono">general-purpose</td><td><span class="badge ">內建</span></td><td>萬用型：研究、找程式碼、多步驟雜活</td><td class="mono" style="font-weight:400;font-size:12px">—</td></tr>
+<tr><td class="mono">Explore</td><td><span class="badge ">內建</span></td><td>唯讀搜索型：大範圍掃檔案，只回結論</td><td class="mono" style="font-weight:400;font-size:12px">—</td></tr>
+<tr><td class="mono">Plan</td><td><span class="badge ">內建</span></td><td>架構規劃型：設計實作計畫、評估取捨</td><td class="mono" style="font-weight:400;font-size:12px">—</td></tr>
+<tr><td class="mono">claude</td><td><span class="badge ">內建</span></td><td>FleetView 預設萬用款</td><td class="mono" style="font-weight:400;font-size:12px">—</td></tr>
+<tr><td class="mono">claude-code-guide</td><td><span class="badge ">內建</span></td><td>Claude Code／API 問題專家</td><td class="mono" style="font-weight:400;font-size:12px">—</td></tr>
+<tr><td class="mono">statusline-setup</td><td><span class="badge ">內建</span></td><td>設定終端機狀態列專用</td><td class="mono" style="font-weight:400;font-size:12px">—</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>MCP Server <span class="count">9 個</span></h2>
+<div class="tblwrap">
+<table>
+<thead><tr><th>MCP</th><th>類型</th><th>狀態</th></tr></thead>
+<tbody>
+<tr><td class="mono">claude.ai Trimble SketchUp</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
+<tr><td class="mono">claude.ai Google Drive</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
+<tr><td class="mono">claude.ai Slack</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
+<tr><td class="mono">claude.ai Gmail</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
+<tr><td class="mono">claude.ai Google Calendar</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
+<tr><td class="mono">plugin:figma:figma</td><td>plugin 內建</td><td><span class="badge ok">Connected</span></td></tr>
+<tr><td class="mono">illustrator</td><td>本機 server</td><td><span class="badge ok">Connected</span></td></tr>
+<tr><td class="mono">playwright</td><td>本機 server</td><td><span class="badge ok">Connected</span></td></tr>
+<tr><td class="mono">firecrawl</td><td>本機 server</td><td><span class="badge ok">Connected</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>終端機工具 <span class="count">4 項</span></h2>
+<div class="tblwrap">
+<table>
+<thead><tr><th>工具</th><th>呼叫方式</th><th>用途</th></tr></thead>
+<tbody>
+<tr><td class="mono">小G</td><td class="mono" style="font-weight:400;font-size:13px">小G 問題 ／ 小G：問題</td><td>量產苦力（Gemini）：草稿、翻譯、清單擴寫、格式轉換；產出自動落檔</td></tr>
+<tr><td class="mono">小L</td><td class="mono" style="font-weight:400;font-size:13px">小L 加入／摘要／：問題</td><td>文件圖書館員（NotebookLM）：吞 PDF／網址，給有出處的問答與規格摘要</td></tr>
+<tr><td class="mono">審查協議</td><td class="mono" style="font-weight:400;font-size:13px">對話打 . </td><td>Claude 讀雜工落檔做漏洞審查＋修正定稿（三劍客的主廚環節）</td></tr>
+<tr><td class="mono">mole</td><td class="mono" style="font-weight:400;font-size:13px">mo clean（預覽加 --dry-run）</td><td>Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程</td></tr>
+</tbody>
+</table>
+</div>
+
+<footer>此頁由 Claude Code 的 toollist skill 自動產生並推送到 GitHub Pages。網址未公開索引（noindex），僅供本人存取。</footer>
+</div>
+</body>
+</html>
