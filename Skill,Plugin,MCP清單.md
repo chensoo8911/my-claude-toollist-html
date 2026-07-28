@@ -3,7 +3,7 @@
 > 盤點日期：2026-07-29　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（31 個觸發詞 · 15 個 skill）
+## 🔑 觸發詞速查（32 個觸發詞 · 16 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -19,11 +19,12 @@
 | `我誰` / `幫我寫 CLAUDE.md` | **claude-whoami** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
+| `收工` | **my-claude-handoff** |
 | `制度健檢` / `規則體檢` / `進階玩家` | **my-claude-self-audit** |
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
 
-## Skill · 自製（claude-＊／my-claude-＊，共 13 個）
+## Skill · 自製（claude-＊／my-claude-＊，共 14 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -37,6 +38,7 @@
 | **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境（小G Gemini ＋ 小L NotebookLM ＋ Claude 審查） |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 把一句話的「你是誰＋規則」轉成完整 CLAUDE.md，存進目前資料夾 |
+| **my-claude-handoff** | 收工 | 專案收尾與交接的完整流程——把進度寫進專案 CLAUDE.md、派 handoff-checker 驗「下一個 sess |
 | **my-claude-self-audit** | 制度健檢 / 規則體檢 / 進階玩家 | 全域顧問：質疑並強化使用者用 Claude 的方式，橫跨制度／工作流／工具適配／自動化四塊 |
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP 並更新工具清單網頁（GitHub Pages，僅供自用） |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
