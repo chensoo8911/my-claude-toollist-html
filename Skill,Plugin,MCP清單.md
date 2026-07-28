@@ -1,9 +1,9 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-27　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-28　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（27 個觸發詞 · 14 個 skill）
+## 🔑 觸發詞速查（31 個觸發詞 · 15 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -18,6 +18,7 @@
 | `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
 | `我誰` / `幫我寫 CLAUDE.md` | **claude-whoami** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
+| `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `制度健檢` / `規則體檢` / `進階玩家` | **my-claude-self-audit** |
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
@@ -40,12 +41,14 @@
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP 並更新工具清單網頁（GitHub Pages，僅供自用） |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 
-## Skill · 第三方（外部安裝，共 2 個）
+## Skill · 第三方（外部安裝，共 4 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
+| **adobe-illustrator-scripting** | — | 'Write, debug, and optimize Adobe Illustrator automation scr |
 | **apple-hig-expert** | — | "Audits and designs iOS/macOS/watchOS/visionOS interfaces ag |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
+| **illustrator-preflight** | preflight / pre-press check / print check / submission check | Run comprehensive pre-press preflight checks on Adobe Illust |
 
 ## Plugin（已啟用，共 3 個）
 
@@ -55,19 +58,15 @@
 | **frontend-design** | unknown | claude-plugins-official |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill |
 
-## MCP Server（共 9 個）
+## MCP Server（共 5 個）
 
 | MCP | 類型 | 狀態 |
 |---|---|---|
-| **claude.ai Trimble SketchUp** | claude.ai connector | — |
-| **claude.ai Google Drive** | claude.ai connector | — |
-| **claude.ai Slack** | claude.ai connector | — |
-| **claude.ai Gmail** | claude.ai connector | — |
-| **claude.ai Google Calendar** | claude.ai connector | — |
-| **plugin:figma:figma** | plugin 內建 | Connected |
+| **plugin:figma:figma** | plugin 內建 | Unknown |
 | **illustrator** | 本機 server | Connected |
-| **playwright** | 本機 server | Connected |
-| **firecrawl** | 本機 server | Connected |
+| **playwright** | 本機 server | Unknown |
+| **firecrawl** | 本機 server | Unknown |
+| **illustrator-pro** | 本機 server | Unknown |
 
 ## Agent（自製 7 個＋內建 6 個）
 
