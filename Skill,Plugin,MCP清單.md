@@ -73,11 +73,10 @@
 | **firecrawl** | 本機 server | Connected |
 | **illustrator-pro** | 本機 server | Connected |
 
-## Agent（自製 8 個＋內建 6 個）
+## Agent（自製 7 個＋內建 6 個）
 
 | Agent | 來源 | 用途 | 工具權限 |
 |---|---|---|---|
-| **content-quality-editor** | 自製 | "Use this agent before publishing any AI-generated content — | Read, Write, Edit, Bash |
 | **handoff-checker** | 自製 | Fresh-context 交接驗收員（＝「明天的 session」模擬器） | Read, Glob, Grep, Bash |
 | **publish-safety-checker** | 自製 | Fresh-context 發版安檢員 | Read, Glob, Grep, Bash |
 | **system-critic** | 自製 | Fresh-context 制度質疑者（唱反調的那個） | Read, Glob, Grep, Bash, WebSearch, WebFetch |
