@@ -60,16 +60,15 @@
 | **frontend-design** | unknown | claude-plugins-official |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill |
 
-## MCP Server（共 10 個）
+## MCP Server（共 9 個）
 
 | MCP | 類型 | 狀態 |
 |---|---|---|
-| **claude.ai Trimble SketchUp** | claude.ai connector | — |
 | **claude.ai Google Drive** | claude.ai connector | — |
 | **claude.ai Slack** | claude.ai connector | — |
 | **claude.ai Gmail** | claude.ai connector | — |
-| **claude.ai Google Calendar** | claude.ai connector | — |
-| **plugin:figma:figma** | plugin 內建 | Connected |
+| **claude.ai Notion** | claude.ai connector | — |
+| **plugin:figma:figma** | plugin 內建 | Needs auth |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
 | **firecrawl** | 本機 server | Connected |
