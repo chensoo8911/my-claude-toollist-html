@@ -68,7 +68,7 @@
 | **claude.ai Slack** | claude.ai connector | — |
 | **claude.ai Gmail** | claude.ai connector | — |
 | **claude.ai Notion** | claude.ai connector | — |
-| **plugin:figma:figma** | plugin 內建 | Needs auth |
+| **plugin:figma:figma** | plugin 內建 | Connected |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
 | **firecrawl** | 本機 server | Connected |
