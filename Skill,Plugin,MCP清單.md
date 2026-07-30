@@ -58,7 +58,7 @@
 
 | Plugin | 版本 | 來源 marketplace |
 |---|---|---|
-| **figma** | 2.2.81 | claude-plugins-official |
+| **figma** | 2.2.87 | claude-plugins-official |
 | **frontend-design** | unknown | claude-plugins-official |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill |
 
