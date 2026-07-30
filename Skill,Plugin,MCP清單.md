@@ -1,9 +1,9 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-30　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-31　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（30 個觸發詞 · 16 個 skill）
+## 🔑 觸發詞速查（32 個觸發詞 · 17 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -21,10 +21,11 @@
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `全域醫生` | **my-claude-doctor** |
 | `收工` | **my-claude-handoff** |
+| `開工` / `接手` | **my-claude-startup** |
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
 
-## Skill · 自製（claude-＊／my-claude-＊，共 14 個）
+## Skill · 自製（claude-＊／my-claude-＊，共 15 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -40,6 +41,7 @@
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 把一句話的「你是誰＋規則」轉成完整 CLAUDE.md，存進目前資料夾 |
 | **my-claude-doctor** | 全域醫生 | 全域醫生・判斷層：質疑並強化使用者用 Claude 的方式，橫跨制度／工作流／工具適配／自動化四塊 |
 | **my-claude-handoff** | 收工 | 專案收尾與交接的完整流程——把進度寫進專案 CLAUDE.md、派 handoff-checker 驗「下一個 sess |
+| **my-claude-startup** | 開工 / 接手 | 開場 SOP |
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP 並更新工具清單網頁（GitHub Pages，僅供自用） |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 

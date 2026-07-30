@@ -39,11 +39,11 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
 <div class="wrap">
 <header>
   <h1>🧰 本機 Claude 工具清單</h1>
-  <div class="meta">盤點日期 2026-07-30　｜　自動同步（本機工具有更新就重跑「盤點工具」）</div>
+  <div class="meta">盤點日期 2026-07-31　｜　自動同步（本機工具有更新就重跑「盤點工具」）</div>
   <div class="meta">🔒 僅含工具名稱與用途，不含任何密鑰或 API 串接資訊</div>
 </header>
 
-<h2>Skill · 自製 <span class="count">claude-＊／my-claude-＊ · 14 個</span></h2>
+<h2>Skill · 自製 <span class="count">claude-＊／my-claude-＊ · 15 個</span></h2>
 <div class="grid">
 <div class="card">
   <div class="cname">claude-command-push</div>
@@ -104,6 +104,11 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
   <div class="cname">my-claude-handoff</div>
   <div class="chips"><span class="chip acc">收工</span></div>
   <div class="cdesc">專案收尾與交接的完整流程——把進度寫進專案 CLAUDE.md、派 handoff-checker 驗「下一個 session 接不接得住」、補缺口、檢查關聯項目有沒有跟上。觸發詞：「收工」。適用於有交付物的多步專案告一段落時；單純問答與小修改不用跑。</div>
+</div>
+<div class="card">
+  <div class="cname">my-claude-startup</div>
+  <div class="chips"><span class="chip acc">開工</span><span class="chip acc">接手</span></div>
+  <div class="cdesc">開場 SOP。掃目前資料夾（cwd）判斷這是新專案還是既有專案，再決定走「開工」（先分大事小事，大事走 claude-ops，然後走 claude-whoami 產專案 CLAUDE.md）或「接手」（列出現況、下一步、刻意狀態，並派 handoff-checker 驗收）。觸發詞：「開工」「接手」。</div>
 </div>
 <div class="card">
   <div class="cname">my-claude-toollist</div>
