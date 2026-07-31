@@ -3,10 +3,12 @@
 > 盤點日期：2026-07-31　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（32 個觸發詞 · 17 個 skill）
+## 🔑 觸發詞速查（38 個觸發詞 · 19 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
+| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+| `iOS 介面檢查` / `HIG 檢查` / `蘋果規範` | **apple-hig-expert** |
 | `發版` | **claude-command-push** |
 | `展開SVG` | **claude-figma-svg-expand** |
 | `快照全md` | **claude-md-snapshot** |
@@ -49,10 +51,34 @@
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
-| **adobe-illustrator-scripting** | — | 'Write, debug, and optimize Adobe Illustrator automation scr |
-| **apple-hig-expert** | — | "Audits and designs iOS/macOS/watchOS/visionOS interfaces ag |
+| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 'Write, debug, and optimize Adobe Illustrator automation scr |
+| **apple-hig-expert** | iOS 介面檢查 / HIG 檢查 / 蘋果規範 | "Audits and designs iOS/macOS/watchOS/visionOS interfaces ag |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
 | **illustrator-preflight** | preflight / pre-press check / print check / submission check | Run comprehensive pre-press preflight checks on Adobe Illust |
+
+## 🌐 中文入口（26 個中文詞 · 9 個工具）
+
+> 這些工具的 description 是英文，用中文講常常路由不到；中文詞寫在全域 CLAUDE.md 的路由表，
+> **不改第三方檔案**（plugin 更新會換版本夾、改了會被蓋掉）。
+
+### Skill（2 項）
+
+| 我可能會說 | 對應 Skill |
+|---|---|
+| `iOS 介面檢查` / `HIG 檢查` / `蘋果規範` | **apple-hig-expert** |
+| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+
+### Plugin skill（7 項）
+
+| 我可能會說 | 對應 Plugin skill |
+|---|---|
+| `做網頁` / `做前端` / `切版` | **frontend-design:frontend-design** |
+| `做圖表` / `畫圖表` / `做儀表板` | **dataviz** |
+| `配色` / `找字體` / `UI 參考` / `查設計風格` | **ui-ux-pro-max:ui-ux-pro-max** |
+| `做 banner` / `做橫幅` / `做社群圖` | **ui-ux-pro-max:banner-design** |
+| `做 logo` / `做 CIP` / `品牌識別` | **ui-ux-pro-max:design** |
+| `做簡報` / `做投影片` | **ui-ux-pro-max:slides** |
+| `Figma 轉程式碼` / `把設計做成網頁` | **figma:figma-design-to-code** |
 
 ## Plugin（已啟用，共 3 個）
 
