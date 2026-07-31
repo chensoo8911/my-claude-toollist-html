@@ -1,9 +1,9 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-31　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-08-01　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（38 個觸發詞 · 19 個 skill）
+## 🔑 觸發詞速查（39 個觸發詞 · 19 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -14,7 +14,7 @@
 | `快照全md` | **claude-md-snapshot** |
 | `claude通知音效` | **claude-notify-sounds** |
 | `加入ob` / `新增ob` | **claude-obsidian-inbox** |
-| `大事SOP` / `自己跑完複雜任務` / `下單卡` / `①多步驟②可檢查③需迭代` | **claude-ops** |
+| `幹大事` / `自己跑完複雜任務` / `下單卡` / `大事SOP` / `①多步驟②可檢查③需迭代` | **claude-ops** |
 | `做名片` | **claude-sv-card** |
 | `大團出圖` | **claude-tnbt-export** |
 | `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
@@ -36,7 +36,7 @@
 | **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 存一份日期快照（用 cp 複製，正本不動） |
 | **claude-notify-sounds** | claude通知音效 | 安裝／設定／移除 Claude Code 的純音效 hook（「換你了」「需回應」兩個時機） |
 | **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下內容存成 .md 到 Obsidian 收件匣，對齊既有屬性 schema |
-| **claude-ops** | 大事SOP / 自己跑完複雜任務 / 下單卡 / ①多步驟②可檢查③需迭代 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
+| **claude-ops** | 幹大事 / 自己跑完複雜任務 / 下單卡 / 大事SOP / ①多步驟②可檢查③需迭代 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
 | **claude-sv-card** | 做名片 | StreetVoice 街聲名片自動化 |
 | **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境（小G Gemini ＋ 小L NotebookLM ＋ Claude 審查） |
