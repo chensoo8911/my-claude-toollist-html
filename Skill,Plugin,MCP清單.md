@@ -1,4 +1,4 @@
-# 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
+# 本機 Claude 工具清單（Skill / Plugin / MCP / Agent / 排程）
 
 > 盤點日期：2026-08-01　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
@@ -44,7 +44,7 @@
 | **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境（小G Gemini ＋ 小L NotebookLM ＋ Claude 審查） |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 把一句話的「你是誰＋規則」轉成完整 CLAUDE.md，存進目前資料夾 |
-| **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP 並更新工具清單網頁（GitHub Pages，僅供自用） |
+| **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP／agent／排程 並更新工具清單網頁（GitHub Pages，僅供自用） |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 
 ## Skill · 第三方（外部安裝，共 4 個）
@@ -126,6 +126,17 @@
 | **小L** | 小L 加入／摘要／：問題 | 文件圖書館員（NotebookLM）：吞 PDF／網址，給有出處的問答與規格摘要 |
 | **審查協議** | 對話打 .  | Claude 讀雜工落檔做漏洞審查＋修正定稿（三劍客的主廚環節） |
 | **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
+
+## 排程（共 4 支）
+
+> 每天凌晨自動跑的工作（macOS launchd）。「未載入」代表那支今天不會跑，且不會有人通知你。
+
+| 排程 | label | 時間 | 引擎 | 狀態 |
+|---|---|---|---|---|
+| **晨報** | `uai-morning` | 每天 04:30 | agy | 運行中 |
+| **活動雷達** | `uai-events` | 每天 04:40 | agy | 運行中 |
+| **全域醫生** | `uai-doctor` | 每天 04:45 | agy | 運行中 |
+| **使用洞察** | `uai-insights` | 每週五 04:55 | insights | 運行中 |
 
 ---
 > 🔒 本清單只含工具名稱與用途，不含任何密鑰、token 或 API 串接資訊。
