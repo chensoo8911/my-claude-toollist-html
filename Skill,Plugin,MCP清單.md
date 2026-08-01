@@ -7,54 +7,54 @@
 
 | 觸發詞 | 對應 Skill |
 |---|---|
-| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
-| `iOS 介面檢查` / `HIG 檢查` / `蘋果規範` | **apple-hig-expert** |
-| `發版` | **claude-command-push** |
 | `全域醫生` | **claude-doctor** |
-| `展開SVG` | **claude-figma-svg-expand** |
-| `收工` | **claude-handoff** |
-| `快照全md` | **claude-md-snapshot** |
-| `claude通知音效` | **claude-notify-sounds** |
-| `加入ob` / `新增ob` | **claude-obsidian-inbox** |
 | `幹大事` | **claude-ops** |
-| `開工` / `接手` | **claude-startup** |
-| `做名片` | **claude-sv-card** |
-| `大團出圖` | **claude-tnbt-export** |
 | `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
 | `我誰` / `幫我寫 CLAUDE.md` | **claude-whoami** |
+| `開工` / `接手` | **claude-startup** |
+| `收工` | **claude-handoff** |
+| `發版` | **claude-command-push** |
+| `加入ob` / `新增ob` | **claude-obsidian-inbox** |
+| `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
+| `列工具清單` / `更新工具清單` | **my-claude-toollist** |
+| `做名片` | **claude-sv-card** |
+| `展開SVG` | **claude-figma-svg-expand** |
+| `大團出圖` | **claude-tnbt-export** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
-| `列工具清單` / `更新工具清單` | **my-claude-toollist** |
-| `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
+| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+| `iOS 介面檢查` / `HIG 檢查` / `蘋果規範` | **apple-hig-expert** |
+| `快照全md` | **claude-md-snapshot** |
+| `claude通知音效` | **claude-notify-sounds** |
 
 ## Skill · 自製（claude-＊／my-claude-＊，共 15 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
-| **claude-command-push** | 發版 | git repo 發版自動化五步：CHANGELOG → commit → tag → push tag → GitHu |
 | **claude-doctor** | 全域醫生 | 全域醫生・判斷層：質疑並強化使用者用 Claude 的方式，橫跨制度／工作流／工具適配／自動化四塊 |
-| **claude-figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
-| **claude-handoff** | 收工 | 專案收尾與交接的完整流程——把進度寫進專案 CLAUDE.md、派 handoff-checker 驗「下一個 sess |
-| **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 存一份日期快照（用 cp 複製，正本不動） |
-| **claude-notify-sounds** | claude通知音效 | 安裝／設定／移除 Claude Code 的純音效 hook（「換你了」「需回應」兩個時機） |
-| **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下內容存成 .md 到 Obsidian 收件匣，對齊既有屬性 schema |
 | **claude-ops** | 幹大事 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
-| **claude-startup** | 開工 / 接手 | 開場 SOP |
-| **claude-sv-card** | 做名片 | StreetVoice 街聲名片自動化 |
-| **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境（小G Gemini ＋ 小L NotebookLM ＋ Claude 審查） |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 把一句話的「你是誰＋規則」轉成完整 CLAUDE.md，存進目前資料夾 |
-| **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP／agent／排程 並更新工具清單網頁（GitHub Pages，僅供自用） |
+| **claude-startup** | 開工 / 接手 | 開場 SOP |
+| **claude-handoff** | 收工 | 專案收尾與交接的完整流程——把進度寫進專案 CLAUDE.md、派 handoff-checker 驗「下一個 sess |
+| **claude-command-push** | 發版 | git repo 發版自動化五步：CHANGELOG → commit → tag → push tag → GitHu |
+| **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下內容存成 .md 到 Obsidian 收件匣，對齊既有屬性 schema |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
+| **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP／agent／排程 並更新工具清單網頁（GitHub Pages，僅供自用） |
+| **claude-sv-card** | 做名片 | StreetVoice 街聲名片自動化 |
+| **claude-figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
+| **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
+| **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 存一份日期快照（用 cp 複製，正本不動） |
+| **claude-notify-sounds** | claude通知音效 | 安裝／設定／移除 Claude Code 的純音效 hook（「換你了」「需回應」兩個時機） |
 
 ## Skill · 第三方（外部安裝，共 4 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
-| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 'Write, debug, and optimize Adobe Illustrator automation scr |
-| **apple-hig-expert** | iOS 介面檢查 / HIG 檢查 / 蘋果規範 | "Audits and designs iOS/macOS/watchOS/visionOS interfaces ag |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
 | **illustrator-preflight** | preflight / pre-press check / print check / submission check | Run comprehensive pre-press preflight checks on Adobe Illust |
+| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 'Write, debug, and optimize Adobe Illustrator automation scr |
+| **apple-hig-expert** | iOS 介面檢查 / HIG 檢查 / 蘋果規範 | "Audits and designs iOS/macOS/watchOS/visionOS interfaces ag |
 
 ## 🌐 中文入口（26 個中文詞 · 9 個工具）
 
