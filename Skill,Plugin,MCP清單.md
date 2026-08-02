@@ -49,12 +49,12 @@
 
 ## Skill · 第三方（外部安裝，共 4 個）
 
-| Skill | 觸發詞 | 用途 |
-|---|---|---|
-| **find-skills** | how do I do X / find a skill for X | 不知道有沒有工具能做某件事時，幫我找還能裝什麼 skill |
-| **illustrator-preflight** | preflight / pre-press check / print check / submission check | Illustrator 檔入稿前檢查：RGB、斷連結、低解析、文字沒外框 |
-| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 |
-| **apple-hig-expert** | iOS 介面檢查 / HIG 檢查 / 蘋果規範 | iOS／macOS 介面照蘋果官方規範（HIG）檢查與設計 |
+| Skill | 觸發詞 | 用途 | 原連結 |
+|---|---|---|---|
+| **find-skills** | how do I do X / find a skill for X | 不知道有沒有工具能做某件事時，幫我找還能裝什麼 skill | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
+| **illustrator-preflight** | preflight / pre-press check / print check / submission check | Illustrator 檔入稿前檢查：RGB、斷連結、低解析、文字沒外框 | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
+| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 | [github/awesome-copilot](https://github.com/github/awesome-copilot) |
+| **apple-hig-expert** | iOS 介面檢查 / HIG 檢查 / 蘋果規範 | iOS／macOS 介面照蘋果官方規範（HIG）檢查與設計 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 
 ## 🌐 中文入口（26 個中文詞 · 9 個工具）
 
@@ -82,25 +82,25 @@
 
 ## Plugin（已啟用，共 3 個）
 
-| Plugin | 版本 | 來源 marketplace |
-|---|---|---|
-| **figma** | 2.2.87 | claude-plugins-official |
-| **frontend-design** | unknown | claude-plugins-official |
-| **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill |
+| Plugin | 版本 | 來源 marketplace | 原連結 |
+|---|---|---|---|
+| **figma** | 2.2.87 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **frontend-design** | unknown | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
 ## MCP Server（共 9 個）
 
-| MCP | 類型 | 狀態 |
-|---|---|---|
-| **claude.ai Google Drive** | claude.ai connector | — |
-| **claude.ai Slack** | claude.ai connector | — |
-| **claude.ai Gmail** | claude.ai connector | — |
-| **claude.ai Notion** | claude.ai connector | — |
-| **plugin:figma:figma** | plugin 內建 | Needs auth |
-| **illustrator** | 本機 server | Connected |
-| **playwright** | 本機 server | Connected |
-| **firecrawl** | 本機 server | Connected |
-| **illustrator-pro** | 本機 server | Connected |
+| MCP | 類型 | 狀態 | 原連結 |
+|---|---|---|---|
+| **claude.ai Google Drive** | claude.ai connector | — | — |
+| **claude.ai Slack** | claude.ai connector | — | — |
+| **claude.ai Gmail** | claude.ai connector | — | — |
+| **claude.ai Notion** | claude.ai connector | — | — |
+| **plugin:figma:figma** | plugin 內建 | Needs auth | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **illustrator** | 本機 server | Connected | [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server) |
+| **playwright** | 本機 server | Connected | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
+| **firecrawl** | 本機 server | Connected | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
+| **illustrator-pro** | 本機 server | Connected | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
 
 ## Agent（自製 5 個＋內建 6 個）
 
