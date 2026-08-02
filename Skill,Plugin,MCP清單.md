@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent / 排程）
 
-> 盤點日期：2026-08-01　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-08-02　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
 ## 🔑 觸發詞速查（35 個觸發詞 · 19 個 skill）
@@ -31,30 +31,30 @@
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
-| **claude-doctor** | 全域醫生 | 全域醫生・判斷層：質疑並強化使用者用 Claude 的方式，橫跨制度／工作流／工具適配／自動化四塊 |
-| **claude-ops** | 幹大事 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
-| **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境（小G Gemini ＋ 小L NotebookLM ＋ Claude 審查） |
-| **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 把一句話的「你是誰＋規則」轉成完整 CLAUDE.md，存進目前資料夾 |
-| **claude-startup** | 開工 / 接手 | 開場 SOP |
-| **claude-handoff** | 收工 | 專案收尾與交接的完整流程——把進度寫進專案 CLAUDE.md、派 handoff-checker 驗「下一個 sess |
-| **claude-command-push** | 發版 | git repo 發版自動化五步：CHANGELOG → commit → tag → push tag → GitHu |
-| **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下內容存成 .md 到 Obsidian 收件匣，對齊既有屬性 schema |
-| **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
-| **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 skill／plugin／MCP／agent／排程 並更新工具清單網頁（GitHub Pages，僅供自用） |
-| **claude-sv-card** | 做名片 | StreetVoice 街聲名片自動化 |
-| **claude-figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
-| **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
-| **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 存一份日期快照（用 cp 複製，正本不動） |
-| **claude-notify-sounds** | claude通知音效 | 安裝／設定／移除 Claude Code 的純音效 hook（「換你了」「需回應」兩個時機） |
+| **claude-doctor** | 全域醫生 | 健檢我用 Claude 的方式，挑毛病給建議（唯讀，要改會先問） |
+| **claude-ops** | 幹大事 | 複雜任務的工作制度：自己跑循環、派工、驗收，不用我盯 |
+| **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 裝終端機的 AI 助手三人組（小G 量產、小L 讀文件、Claude 審查） |
+| **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 一句話變成完整 CLAUDE.md 角色設定，存進目前資料夾 |
+| **claude-startup** | 開工 / 接手 | 開場用：判斷這是新專案還接手舊的，決定先做什麼 |
+| **claude-handoff** | 收工 | 收工用：把進度寫進專案文件，並驗「明天的我接不接得住」 |
+| **claude-command-push** | 發版 | 發版五步一次跑完：CHANGELOG→commit→tag→push→Release |
+| **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下的內容存成 .md 丟進 Obsidian 收件匣 |
+| **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | 學到的新詞、新知識記進 UIAI 學習庫並自動歸類、同步 Obsidian |
+| **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機裝了哪些工具，更新這一頁 |
+| **claude-sv-card** | 做名片 | 公司名片自動化：丟簽呈進來，自動分版型出完稿 |
+| **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
+| **claude-tnbt-export** | 大團出圖 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
+| **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 存一份日期快照（正本不動） |
+| **claude-notify-sounds** | claude通知音效 | 裝 Claude 的提示音（「換你了」「需回應」兩種時機） |
 
 ## Skill · 第三方（外部安裝，共 4 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
-| **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
-| **illustrator-preflight** | preflight / pre-press check / print check / submission check | Run comprehensive pre-press preflight checks on Adobe Illust |
-| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 'Write, debug, and optimize Adobe Illustrator automation scr |
-| **apple-hig-expert** | iOS 介面檢查 / HIG 檢查 / 蘋果規範 | "Audits and designs iOS/macOS/watchOS/visionOS interfaces ag |
+| **find-skills** | how do I do X / find a skill for X | 不知道有沒有工具能做某件事時，幫我找還能裝什麼 skill |
+| **illustrator-preflight** | preflight / pre-press check / print check / submission check | Illustrator 檔入稿前檢查：RGB、斷連結、低解析、文字沒外框 |
+| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 |
+| **apple-hig-expert** | iOS 介面檢查 / HIG 檢查 / 蘋果規範 | iOS／macOS 介面照蘋果官方規範（HIG）檢查與設計 |
 
 ## 🌐 中文入口（26 個中文詞 · 9 個工具）
 
