@@ -17,6 +17,8 @@
 | `加入ob` / `新增ob` | **claude-obsidian-inbox** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
+| `快照全md` | **claude-md-snapshot** |
+| `claude通知音效` | **claude-notify-sounds** |
 | `做名片` | **claude-sv-card** |
 | `展開SVG` | **claude-figma-svg-expand** |
 | `大團出圖` | **claude-tnbt-export** |
@@ -24,8 +26,6 @@
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
 | `iOS 介面檢查` / `HIG 檢查` / `蘋果規範` | **apple-hig-expert** |
-| `快照全md` | **claude-md-snapshot** |
-| `claude通知音效` | **claude-notify-sounds** |
 
 ## Skill · 自製（claude-＊／my-claude-＊，共 15 個）
 
@@ -41,11 +41,11 @@
 | **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下的內容存成 .md 丟進 Obsidian 收件匣 |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | 學到的新詞、新知識記進 UIAI 學習庫並自動歸類、同步 Obsidian |
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機裝了哪些工具，更新這一頁 |
+| **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 存一份日期快照（正本不動） |
+| **claude-notify-sounds** | claude通知音效 | 裝 Claude 的提示音（「換你了」「需回應」兩種時機） |
 | **claude-sv-card** | 做名片 | 公司名片自動化：丟簽呈進來，自動分版型出完稿 |
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
 | **claude-tnbt-export** | 大團出圖 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
-| **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 存一份日期快照（正本不動） |
-| **claude-notify-sounds** | claude通知音效 | 裝 Claude 的提示音（「換你了」「需回應」兩種時機） |
 
 ## Skill · 第三方（外部安裝，共 4 個）
 
@@ -138,5 +138,3 @@
 | **全域醫生** | `uai-doctor` | 每天 04:45 | agy | 運行中 |
 | **使用洞察** | `uai-insights` | 每週五 04:55 | insights | 運行中 |
 
----
-> 🔒 本清單只含工具名稱與用途，不含任何密鑰、token 或 API 串接資訊。
