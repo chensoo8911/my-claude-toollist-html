@@ -3,12 +3,12 @@
 > 盤點日期：2026-08-02　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（31 個觸發詞 · 17 個 skill）
+## 🔑 觸發詞速查（28 個觸發詞 · 17 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
 | `全域醫生` | **claude-doctor** |
-| `自己跑完複雜任務` / `下單卡` / `幹大事` / `①多步驟②可檢查③需迭代` | **claude-ops**（推測） |
+| `⚡ 執行預設` | **claude-ops** |
 | `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
 | `我誰` / `幫我寫 CLAUDE.md` | **claude-whoami** |
 | `開工` / `接手` | **claude-startup** |
@@ -30,7 +30,7 @@
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
 | **claude-doctor** | 全域醫生 | 健檢我用 Claude 的方式，挑毛病給建議（唯讀，要改會先問） |
-| **claude-ops** | 自己跑完複雜任務 / 下單卡 / 幹大事 / ①多步驟②可檢查③需迭代 | 複雜任務的工作制度：自己跑循環、派工、驗收，不用我盯 |
+| **claude-ops** | ⚡ 執行預設 | 複雜任務的工作制度：自己跑循環、派工、驗收，不用我盯 |
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 裝終端機的 AI 助手三人組（小G 量產、小L 讀文件、Claude 審查） |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 一句話變成完整 CLAUDE.md 角色設定，存進目前資料夾 |
 | **claude-startup** | 開工 / 接手 | 開場用：判斷這是新專案還接手舊的，決定先做什麼 |
