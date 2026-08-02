@@ -102,10 +102,11 @@
 | **firecrawl** | 本機 server | Connected | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
 | **illustrator-pro** | 本機 server | Connected | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
 
-## Agent（自製 5 個＋內建 6 個）
+## Agent（自製 6 個＋內建 6 個）
 
 | Agent | 來源 | 用途 | 工具權限 |
 |---|---|---|---|
+| **design-assistant** | 自製 | 設計執行助理（幫主對話省設計勞力的那個） | （繼承預設） |
 | **handoff-checker** | 自製 | Fresh-context 交接驗收員（＝「明天的 session」模擬器） | Read, Glob, Grep, Bash |
 | **publish-safety-checker** | 自製 | Fresh-context 發版安檢員 | Read, Glob, Grep, Bash |
 | **system-critic** | 自製 | Fresh-context 制度質疑者（唱反調的那個） | Read, Glob, Grep, Bash, WebSearch, WebFetch |
