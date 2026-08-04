@@ -70,7 +70,7 @@
 | **claude.ai Slack** | claude.ai connector | — | — |
 | **claude.ai Gmail** | claude.ai connector | — | — |
 | **claude.ai Notion** | claude.ai connector | — | — |
-| **plugin:figma:figma** | plugin 內建 | Needs auth | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **plugin:figma:figma** | plugin 內建 | Connected | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **illustrator** | 本機 server | Connected | [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server) |
 | **playwright** | 本機 server | Connected | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 | **firecrawl** | 本機 server | Connected | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
