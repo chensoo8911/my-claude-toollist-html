@@ -1,9 +1,9 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent / 排程）
 
-> 盤點日期：2026-08-04　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-08-05　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（28 個觸發詞 · 17 個 skill）
+## 🔑 觸發詞速查（31 個觸發詞 · 18 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -24,6 +24,7 @@
 | `大團出圖` | **claude-tnbt-export** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
+| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
 
 ## Skill · 自製（claude-＊／my-claude-＊，共 15 個）
 
@@ -51,8 +52,31 @@
 |---|---|---|---|
 | **find-skills** | how do I do X / find a skill for X | 不知道有沒有工具能做某件事時，幫我找還能裝什麼 skill | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | **illustrator-preflight** | preflight / pre-press check / print check / submission check | Illustrator 檔入稿前檢查：RGB、斷連結、低解析、文字沒外框 | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
-| **adobe-illustrator-scripting** | — | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 | [github/awesome-copilot](https://github.com/github/awesome-copilot) |
+| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 | [github/awesome-copilot](https://github.com/github/awesome-copilot) |
 | **apple-hig-expert** | — | iOS／macOS 介面照蘋果官方規範（HIG）檢查與設計 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+
+## 🌐 中文入口（23 個中文詞 · 8 個工具）
+
+> 這些工具的 description 是英文，用中文講常常路由不到；中文詞寫在全域 CLAUDE.md 的路由表，
+> **不改第三方檔案**（plugin 更新會換版本夾、改了會被蓋掉）。
+
+### Skill（1 項）
+
+| 我可能會說 | 對應 Skill |
+|---|---|
+| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+
+### Plugin skill（7 項）
+
+| 我可能會說 | 對應 Plugin skill |
+|---|---|
+| `做網頁` / `做前端` / `切版` | **frontend-design:frontend-design** |
+| `做圖表` / `畫圖表` / `做儀表板` | **dataviz** |
+| `配色` / `找字體` / `UI 參考` / `查設計風格` | **ui-ux-pro-max:ui-ux-pro-max** |
+| `做 banner` / `做橫幅` / `做社群圖` | **ui-ux-pro-max:banner-design** |
+| `做 logo` / `做 CIP` / `品牌識別` | **ui-ux-pro-max:design** |
+| `做簡報` / `做投影片` | **ui-ux-pro-max:slides** |
+| `Figma 轉程式碼` / `把設計做成網頁` | **figma:figma-design-to-code** |
 
 ## Plugin（已啟用，共 3 個）
 
