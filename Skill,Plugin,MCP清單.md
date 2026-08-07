@@ -3,7 +3,7 @@
 > 盤點日期：2026-08-07　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（32 個觸發詞 · 18 個 skill）
+## 🔑 觸發詞速查（33 個觸發詞 · 19 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -25,6 +25,7 @@
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+| `設計樹＋分輪提問` | **grill-me**（推測） |
 
 ## Skill · 自製（claude-＊／my-claude-＊，共 15 個）
 
@@ -46,7 +47,7 @@
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
 | **claude-tnbt-export** | 大團出圖 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
 
-## Skill · 第三方（外部安裝，共 4 個）
+## Skill · 第三方（外部安裝，共 5 個）
 
 | Skill | 觸發詞 | 用途 | 原連結 |
 |---|---|---|---|
@@ -54,6 +55,7 @@
 | **illustrator-preflight** | preflight / pre-press check / print check / submission check | Illustrator 檔入稿前檢查：RGB、斷連結、低解析、文字沒外框 | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
 | **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 | [github/awesome-copilot](https://github.com/github/awesome-copilot) |
 | **apple-hig-expert** | — | iOS／macOS 介面照蘋果官方規範（HIG）檢查與設計 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| **grill-me** | 設計樹＋分輪提問 | 逼問式訪談，用「設計樹＋分輪提問」壓力測試一個計畫、決策或設計 | — |
 
 ## 🌐 中文入口（23 個中文詞 · 8 個工具）
 
@@ -134,7 +136,7 @@
 
 | 排程 | label | 時間 | 引擎 | 狀態 |
 |---|---|---|---|---|
-| **晨報** | `uai-morning` | 每天 04:30 | agy | 運行中 |
+| **晨報** | `uai-morning` | 每天 04:30 | claude_task | 運行中 |
 | **活動雷達** | `uai-events` | 每天 04:40 | agy | 運行中 |
 | **全域醫生** | `uai-doctor` | 每天 04:45 | agy | 運行中 |
 | **使用洞察** | `uai-insights` | 每週五 04:55 | insights | 運行中 |
