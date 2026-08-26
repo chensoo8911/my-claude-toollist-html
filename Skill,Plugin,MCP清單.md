@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent / 排程）
 
-> 盤點日期：2026-08-24　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-08-26　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
 ## 🔑 觸發詞速查（33 個觸發詞 · 19 個 skill）
