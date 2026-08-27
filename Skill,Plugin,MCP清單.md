@@ -85,7 +85,7 @@
 | Plugin | 版本 | 來源 marketplace | 原連結 |
 |---|---|---|---|
 | **figma** | 2.2.96 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
-| **frontend-design** | unknown | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **frontend-design** | b819188d2eea | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
 ## MCP Server（共 10 個）
