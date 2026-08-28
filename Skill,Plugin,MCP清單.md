@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent / 排程）
 
-> 盤點日期：2026-08-28　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-08-29　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
 ## 🔑 觸發詞速查（34 個觸發詞 · 20 個 skill）
@@ -47,7 +47,7 @@
 | **claude-sv-card** | 做名片 | 公司名片自動化：丟簽呈進來，自動分版型出完稿 |
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
 | **claude-tnbt-export** | 大團出圖 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
-| **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 寫 Notion 接單卡 → Figma  |
+| **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 在 Notion 開頁面填內文（欄位由使用 |
 
 ## Skill · 第三方（外部安裝，共 5 個）
 
