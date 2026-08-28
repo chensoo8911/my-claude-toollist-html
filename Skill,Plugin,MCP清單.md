@@ -3,7 +3,7 @@
 > 盤點日期：2026-08-28　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（33 個觸發詞 · 19 個 skill）
+## 🔑 觸發詞速查（34 個觸發詞 · 20 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -25,9 +25,10 @@
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+| `做派歌官網圖` | **claude-packer-banner** |
 | `設計樹＋分輪提問` | **grill-me**（推測） |
 
-## Skill · 自製（claude-＊／my-claude-＊，共 15 個）
+## Skill · 自製（claude-＊／my-claude-＊，共 16 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -46,6 +47,7 @@
 | **claude-sv-card** | 做名片 | 公司名片自動化：丟簽呈進來，自動分版型出完稿 |
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
 | **claude-tnbt-export** | 大團出圖 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
+| **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 寫 Notion 接單卡 → Figma  |
 
 ## Skill · 第三方（外部安裝，共 5 個）
 
