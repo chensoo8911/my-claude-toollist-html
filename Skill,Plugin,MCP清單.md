@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent / 排程）
 
-> 盤點日期：2026-09-06　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-09-09　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
 ## 🔑 觸發詞速查（34 個觸發詞 · 20 個 skill）
@@ -87,16 +87,17 @@
 | Plugin | 版本 | 來源 marketplace | 原連結 |
 |---|---|---|---|
 | **figma** | 2.2.107 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
-| **frontend-design** | 85cce0381e78 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **frontend-design** | 91e7a265a87d | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
-## MCP Server（共 9 個）
+## MCP Server（共 10 個）
 
 | MCP | 類型 | 狀態 | 原連結 |
 |---|---|---|---|
 | **claude.ai Google Drive** | claude.ai connector | — | — |
 | **claude.ai Slack** | claude.ai connector | — | — |
 | **claude.ai Gmail** | claude.ai connector | — | — |
+| **claude.ai Notion** | claude.ai connector | — | — |
 | **plugin:figma:figma** | plugin 內建 | Needs auth | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **illustrator** | 本機 server | Unknown | [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server) |
 | **playwright** | 本機 server | Connected | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
