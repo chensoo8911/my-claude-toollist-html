@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent / 排程）
 
-> 盤點日期：2026-09-09　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-09-10　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
 ## 🔑 觸發詞速查（34 個觸發詞 · 20 個 skill）
@@ -87,7 +87,7 @@
 | Plugin | 版本 | 來源 marketplace | 原連結 |
 |---|---|---|---|
 | **figma** | 2.2.107 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
-| **frontend-design** | 517b2fcd1b60 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **frontend-design** | 3ea32df27be7 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
 ## MCP Server（共 10 個）
@@ -101,7 +101,7 @@
 | **plugin:figma:figma** | plugin 內建 | Connected | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **illustrator** | 本機 server | Unknown | [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server) |
 | **playwright** | 本機 server | Connected | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
-| **firecrawl** | 本機 server | Unknown | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
+| **firecrawl** | 本機 server | Connected | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
 | **illustrator-pro** | 本機 server | Connected | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
 | **notion** | 本機 server | Needs auth | — |
 
