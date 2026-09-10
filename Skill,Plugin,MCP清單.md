@@ -3,7 +3,7 @@
 > 盤點日期：2026-09-10　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（34 個觸發詞 · 20 個 skill）
+## 🔑 觸發詞速查（35 個觸發詞 · 20 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -21,7 +21,7 @@
 | `claude通知音效` | **claude-notify-sounds** |
 | `做名片` | **claude-sv-card** |
 | `展開SVG` | **claude-figma-svg-expand** |
-| `大團出圖` | **claude-tnbt-export** |
+| `大團出圖` / `大團出圖票口` | **claude-tnbt-export** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
@@ -46,7 +46,7 @@
 | **claude-notify-sounds** | claude通知音效 | 裝 Claude 的提示音（「換你了」「需回應」兩種時機） |
 | **claude-sv-card** | 做名片 | 公司名片自動化：丟簽呈進來，自動分版型出完稿 |
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
-| **claude-tnbt-export** | 大團出圖 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
+| **claude-tnbt-export** | 大團出圖 / 大團出圖票口 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
 | **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 在 Notion 開頁面填內文（欄位由使用 |
 
 ## Skill · 第三方（外部安裝，共 5 個）
