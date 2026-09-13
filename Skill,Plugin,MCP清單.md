@@ -88,8 +88,8 @@
 
 | Plugin | 版本 | 來源 marketplace | 原連結 |
 |---|---|---|---|
-| **figma** | 2.2.108 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
-| **frontend-design** | 3deb821cb71c | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **figma** | 2.2.111 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **frontend-design** | f0dce59fec06 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
 ## MCP Server（共 10 個）
@@ -101,7 +101,7 @@
 | **claude.ai Gmail** | claude.ai connector | — | — |
 | **claude.ai Notion** | claude.ai connector | — | — |
 | **plugin:figma:figma** | plugin 內建 | Needs auth | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
-| **illustrator** | 本機 server | Unknown | [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server) |
+| **illustrator** | 本機 server | Connected | [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server) |
 | **playwright** | 本機 server | Connected | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 | **firecrawl** | 本機 server | Connected | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
 | **illustrator-pro** | 本機 server | Connected | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
