@@ -3,7 +3,7 @@
 > 盤點日期：2026-09-14　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（37 個觸發詞 · 21 個 skill）
+## 🔑 觸發詞速查（35 個觸發詞 · 21 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -25,7 +25,7 @@
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `Illustrator 自動化` | **adobe-illustrator-scripting** |
-| `做入圍圖` / `作入圍圖` / `做得獎圖` / `作得獎圖` | **claude-gmagima** |
+| `做入圍圖` / `作入圍圖` | **claude-gmagima** |
 | `做派歌官網圖` | **claude-packer-banner** |
 | `設計樹＋分輪提問` | **grill-me**（推測） |
 
@@ -48,7 +48,7 @@
 | **claude-sv-card** | 做名片 | 公司名片自動化：丟簽呈進來，自動分版型出完稿 |
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
 | **claude-tnbt-export** | 大團出圖 / 大團出圖票口 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
-| **claude-gmagima** | 做入圍圖 / 作入圍圖 / 做得獎圖 / 作得獎圖 | 金音獎（GIMA）社群圖製作全流程，涵蓋入圍與得獎兩種圖 |
+| **claude-gmagima** | 做入圍圖 / 作入圍圖 | 金音獎（GIMA）入圍名單社群圖製作全流程 |
 | **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 在 Notion 開頁面填內文（欄位由使用 |
 
 ## Skill · 第三方（外部安裝，共 6 個）
