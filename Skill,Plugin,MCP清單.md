@@ -62,7 +62,7 @@
 | **apple-design** | — | Apple's approach to interface design and fluid, physical mot | — |
 | **grill-me** | 設計樹＋分輪提問 | 逼問式訪談，用「設計樹＋分輪提問」壓力測試一個計畫、決策或設計 | — |
 
-## 🌐 中文入口（31 個中文詞 · 10 個工具）
+## 🌐 中文入口（31 個中文詞 · 11 個工具）
 
 > 這些工具的 description 是英文，用中文講常常路由不到；中文詞寫在全域 CLAUDE.md 的路由表，
 > **不改第三方檔案**（plugin 更新會換版本夾、改了會被蓋掉）。
@@ -73,7 +73,7 @@
 |---|---|
 | `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
 
-### Plugin skill（9 項）
+### Plugin skill（10 項）
 
 | 我可能會說 | 對應 Plugin skill |
 |---|---|
@@ -84,7 +84,8 @@
 | `做 logo` / `做 CIP` / `品牌識別` | **ui-ux-pro-max:design** |
 | `做簡報` / `做投影片` | **ui-ux-pro-max:slides** |
 | `設計風格` | **ui-ux-pro-max:ui-styling** |
-| `設計系統` / `設計規範` | **ui-ux-pro-max:design-system** |
+| `分析設計` | **ui-ux-pro-max:design-system** |
+| `統一設計` | **ui-ux-pro-max:brand** |
 | `Figma 轉程式碼` / `把設計做成網頁` / `設計轉HTML` | **figma:figma-design-to-code** |
 
 ## Plugin（已啟用，共 3 個）
