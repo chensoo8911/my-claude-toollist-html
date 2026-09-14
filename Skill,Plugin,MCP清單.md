@@ -51,7 +51,7 @@
 | **claude-gima-nominee** | 做入圍圖 / 作入圍圖 | 金音獎入圍名單社群圖製作全流程：收五項輸入 → 依獎項順序在 Figma 複製 3 個 row 的內文模版 → 即時讀取 |
 | **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 在 Notion 開頁面填內文（欄位由使用 |
 
-## Skill · 第三方（外部安裝，共 5 個）
+## Skill · 第三方（外部安裝，共 6 個）
 
 | Skill | 觸發詞 | 用途 | 原連結 |
 |---|---|---|---|
@@ -59,6 +59,7 @@
 | **illustrator-preflight** | preflight / pre-press check / print check / submission check | Illustrator 檔入稿前檢查：RGB、斷連結、低解析、文字沒外框 | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
 | **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 | [github/awesome-copilot](https://github.com/github/awesome-copilot) |
 | **apple-hig-expert** | — | iOS／macOS 介面照蘋果官方規範（HIG）檢查與設計 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
+| **apple-design** | — | Apple's approach to interface design and fluid, physical mot | — |
 | **grill-me** | 設計樹＋分輪提問 | 逼問式訪談，用「設計樹＋分輪提問」壓力測試一個計畫、決策或設計 | — |
 
 ## 🌐 中文入口（23 個中文詞 · 8 個工具）
