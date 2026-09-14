@@ -62,7 +62,7 @@
 | **apple-design** | — | Apple's approach to interface design and fluid, physical mot | — |
 | **grill-me** | 設計樹＋分輪提問 | 逼問式訪談，用「設計樹＋分輪提問」壓力測試一個計畫、決策或設計 | — |
 
-## 🌐 中文入口（23 個中文詞 · 8 個工具）
+## 🌐 中文入口（25 個中文詞 · 8 個工具）
 
 > 這些工具的 description 是英文，用中文講常常路由不到；中文詞寫在全域 CLAUDE.md 的路由表，
 > **不改第三方檔案**（plugin 更新會換版本夾、改了會被蓋掉）。
@@ -77,9 +77,9 @@
 
 | 我可能會說 | 對應 Plugin skill |
 |---|---|
-| `做網頁` / `做前端` / `切版` | **frontend-design:frontend-design** |
+| `做網頁` / `做前端` / `切版` / `網頁設計` | **frontend-design:frontend-design** |
 | `做圖表` / `畫圖表` / `做儀表板` | **dataviz** |
-| `配色` / `找字體` / `UI 參考` / `查設計風格` | **ui-ux-pro-max:ui-ux-pro-max** |
+| `配色` / `找字體` / `UI 參考` / `查設計風格` / `UI設計` | **ui-ux-pro-max:ui-ux-pro-max** |
 | `做 banner` / `做橫幅` / `做社群圖` | **ui-ux-pro-max:banner-design** |
 | `做 logo` / `做 CIP` / `品牌識別` | **ui-ux-pro-max:design** |
 | `做簡報` / `做投影片` | **ui-ux-pro-max:slides** |
