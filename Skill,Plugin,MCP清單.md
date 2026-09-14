@@ -3,7 +3,7 @@
 > 盤點日期：2026-09-14　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（37 個觸發詞 · 21 個 skill）
+## 🔑 觸發詞速查（35 個觸發詞 · 21 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -24,7 +24,7 @@
 | `大團出圖` / `大團出圖票口` | **claude-tnbt-export** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
-| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+| `Illustrator 自動化` | **adobe-illustrator-scripting** |
 | `做入圍圖` / `作入圍圖` | **claude-gima-nominee** |
 | `做派歌官網圖` | **claude-packer-banner** |
 | `設計樹＋分輪提問` | **grill-me**（推測） |
@@ -57,12 +57,12 @@
 |---|---|---|---|
 | **find-skills** | how do I do X / find a skill for X | 不知道有沒有工具能做某件事時，幫我找還能裝什麼 skill | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 | **illustrator-preflight** | preflight / pre-press check / print check / submission check | Illustrator 檔入稿前檢查：RGB、斷連結、低解析、文字沒外框 | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
-| **adobe-illustrator-scripting** | 寫 AI 腳本 / 寫 jsx / Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 | [github/awesome-copilot](https://github.com/github/awesome-copilot) |
+| **adobe-illustrator-scripting** | Illustrator 自動化 | 寫 Illustrator 自動化腳本（ExtendScript/jsx）的參考書 | [github/awesome-copilot](https://github.com/github/awesome-copilot) |
 | **apple-hig-expert** | — | iOS／macOS 介面照蘋果官方規範（HIG）檢查與設計 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
 | **apple-design** | — | Apple's approach to interface design and fluid, physical mot | — |
 | **grill-me** | 設計樹＋分輪提問 | 逼問式訪談，用「設計樹＋分輪提問」壓力測試一個計畫、決策或設計 | — |
 
-## 🌐 中文入口（31 個中文詞 · 11 個工具）
+## 🌐 中文入口（29 個中文詞 · 11 個工具）
 
 > 這些工具的 description 是英文，用中文講常常路由不到；中文詞寫在全域 CLAUDE.md 的路由表，
 > **不改第三方檔案**（plugin 更新會換版本夾、改了會被蓋掉）。
@@ -71,7 +71,7 @@
 
 | 我可能會說 | 對應 Skill |
 |---|---|
-| `寫 AI 腳本` / `寫 jsx` / `Illustrator 自動化` | **adobe-illustrator-scripting** |
+| `Illustrator 自動化` | **adobe-illustrator-scripting** |
 
 ### Plugin skill（10 項）
 
