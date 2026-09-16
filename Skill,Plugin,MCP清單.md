@@ -93,23 +93,19 @@
 | Plugin | 版本 | 來源 marketplace | 原連結 |
 |---|---|---|---|
 | **figma** | 2.2.111 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
-| **frontend-design** | 76c85b7366c8 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **frontend-design** | unknown | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
-## MCP Server（共 10 個）
+## MCP Server（共 6 個）
 
 | MCP | 類型 | 狀態 | 原連結 |
 |---|---|---|---|
-| **claude.ai Google Drive** | claude.ai connector | — | — |
-| **claude.ai Slack** | claude.ai connector | — | — |
-| **claude.ai Gmail** | claude.ai connector | — | — |
-| **claude.ai Notion** | claude.ai connector | — | — |
-| **plugin:figma:figma** | plugin 內建 | Connected | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **plugin:figma:figma** | plugin 內建 | Unknown | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **illustrator** | 本機 server | Connected | [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server) |
-| **playwright** | 本機 server | Connected | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
-| **firecrawl** | 本機 server | Connected | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
-| **illustrator-pro** | 本機 server | Connected | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
-| **notion** | 本機 server | Needs auth | — |
+| **playwright** | 本機 server | Unknown | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
+| **firecrawl** | 本機 server | Unknown | [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) |
+| **illustrator-pro** | 本機 server | Unknown | [ie3jp/illustrator-mcp-server](https://github.com/ie3jp/illustrator-mcp-server) |
+| **notion** | 本機 server | Unknown | — |
 
 ## Agent（自製 7 個＋內建 6 個）
 
