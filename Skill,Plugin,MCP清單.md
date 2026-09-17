@@ -130,13 +130,14 @@
 | **claude-code-guide** | 內建 | Claude Code／API 問題專家 | — |
 | **statusline-setup** | 內建 | 設定終端機狀態列專用 | — |
 
-## 終端機工具（共 4 項）
+## 終端機工具（共 5 項）
 
 | 工具 | 呼叫方式 | 用途 |
 |---|---|---|
 | **小G** | 小G 問題 ／ 小G：問題 | 量產苦力（Gemini）：草稿、翻譯、清單擴寫、格式轉換；產出自動落檔 |
 | **小L** | 小L 加入／摘要／：問題 | 文件圖書館員（NotebookLM）：吞 PDF／網址，給有出處的問答與規格摘要 |
 | **審查協議** | 對話打 .  | Claude 讀雜工落檔做漏洞審查＋修正定稿（三劍客的主廚環節） |
+| **coralline** | 自動顯示（settings.json 的 statusLine） | 終端機狀態列：顯示模型／git 分支／5h 與 7d 額度用量。原連結 github.com/Nanako0129/coralline |
 | **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
 
 ## 排程（共 4 支）
