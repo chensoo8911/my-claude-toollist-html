@@ -50,7 +50,7 @@
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
 | **claude-tnbt-export** | 大團出圖 / 大團出圖票口 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
 | **claude-gmagima** | 做入圍圖 / 作入圍圖 | 金音獎（GIMA）入圍名單社群圖製作全流程 |
-| **claude-packer-a4** | 做好丘A4 | 好丘（Good Cho's）店面 A4 宣傳物每季套版全流程：Gmail 讀需求信 → Notion 開卡（只填內文）→ |
+| **claude-packer-a4** | 做好丘A4 | 好丘（Good Cho's）店面 A4 宣傳物每季套版全流程：讀需求信（使用者貼上優先，打「抓信」才用 Gmail）→  |
 | **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 在 Notion 開頁面填內文（欄位由使用 |
 
 ## Skill · 第三方（外部安裝，共 6 個）
