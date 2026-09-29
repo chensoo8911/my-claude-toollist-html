@@ -3,7 +3,7 @@
 > 盤點日期：2026-09-29　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（35 個觸發詞 · 21 個 skill）
+## 🔑 觸發詞速查（36 個觸發詞 · 22 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -26,10 +26,11 @@
 | `preflight` / `pre-press check` / `print check` / `submission check` | **illustrator-preflight**（推測） |
 | `Illustrator 自動化` | **adobe-illustrator-scripting** |
 | `做入圍圖` / `作入圍圖` | **claude-gmagima** |
+| `做好丘A4` | **claude-goodcho-a4** |
 | `做派歌官網圖` | **claude-packer-banner** |
 | `設計樹＋分輪提問` | **grill-me**（推測） |
 
-## Skill · 自製（claude-＊／my-claude-＊，共 17 個）
+## Skill · 自製（claude-＊／my-claude-＊，共 18 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -49,6 +50,7 @@
 | **claude-figma-svg-expand** | 展開SVG | Figma 的 SVG 展成純幾何，貼進網頁陰影不糊、文字不跑版 |
 | **claude-tnbt-export** | 大團出圖 / 大團出圖票口 | 活動視覺批次出圖：Figma 一次匯完 1x/2x、GIF、印刷檔 |
 | **claude-gmagima** | 做入圍圖 / 作入圍圖 | 金音獎（GIMA）入圍名單社群圖製作全流程 |
+| **claude-goodcho-a4** | 做好丘A4 | 好丘（Good Cho's）店面 A4 宣傳物每季套版全流程：Gmail 讀需求信 → Notion 開卡（只填內文）→ |
 | **claude-packer-banner** | 做派歌官網圖 | 派歌（Packer）官網 banner 月更全流程：Gmail 讀需求信 → 在 Notion 開頁面填內文（欄位由使用 |
 
 ## Skill · 第三方（外部安裝，共 6 個）
