@@ -95,7 +95,7 @@
 | Plugin | 版本 | 來源 marketplace | 原連結 |
 |---|---|---|---|
 | **figma** | 2.2.120 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
-| **frontend-design** | unknown | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
+| **frontend-design** | d182ca456ca0 | claude-plugins-official | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **ui-ux-pro-max** | 2.11.0 | ui-ux-pro-max-skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 
 ## MCP Server（共 11 個）
@@ -142,7 +142,7 @@
 | **coralline** | 自動顯示（settings.json 的 statusLine） | 終端機狀態列：顯示模型／git 分支／5h 與 7d 額度用量。原連結 github.com/Nanako0129/coralline |
 | **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
 
-## 排程（共 4 支）
+## 排程（共 5 支）
 
 > 每天凌晨自動跑的工作（macOS launchd）。「未載入」代表那支今天不會跑，且不會有人通知你。
 
@@ -152,4 +152,5 @@
 | **活動雷達** | `uai-events` | 每天 04:40 | agy | 運行中 |
 | **全域醫生** | `uai-doctor` | 每天 04:45 | agy | 運行中 |
 | **使用洞察** | `uai-insights` | 每週五 04:55 | insights | 運行中 |
+| **MSI排程同步** | `uai-pull-msi` | 每天 05:00 | shell | 未載入 |
 
