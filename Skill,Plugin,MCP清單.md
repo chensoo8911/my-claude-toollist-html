@@ -147,8 +147,28 @@
 | **MarkItDown 轉檔** | 某檔案 轉md／轉markdown | uvx --from markitdown markitdown <檔案> > 輸出.md；把 PDF/Word/PPT/Excel/圖片等轉成 Markdown 文字 |
 | **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
 | **newmd** | newmd 檔名（不用打 .md） | zsh function：自動建立 檔名.md 並用文字編輯 App 開啟 |
-| **coralline（Claude Code）** | 自動顯示；換設定跑 configure.sh（見 skill 本機路徑） | 終端機狀態列：模型／git 分支／5h7d額度；更新＝下載官方 install.sh 到暫存區後本機跑 --install-only（不可 curl|bash 直接執行）；可開關子代理面板。原連結 github.com/Nanako0129/coralline |
-| **coralline-codex** | coralline-codex configure／preview／usage／verify | Codex CLI 版狀態列，獨立指令（非自動掛載）；更新＝進本機 checkout 跑 git pull --ff-only 再 install.sh --update；移除 uninstall；單次停用 CORALLINE_CODEX_DISABLE=1 codex --version。原連結 github.com/waynehacking8/coralline-codex |
+| **coralline（Claude Code）** | 自動顯示；詳見展開 | 終端機狀態列：模型／git 分支／5h7d額度。原連結 github.com/Nanako0129/coralline |
+| **coralline-codex** | coralline-codex configure／preview／usage／verify | Codex CLI 版狀態列，獨立指令（非自動掛載）。原連結 github.com/waynehacking8/coralline-codex |
+
+#### coralline（Claude Code）　完整指令
+
+| 用途 | 指令 |
+|---|---|
+| 換主題/欄位設定 | bash configure.sh（skill 內，本機路徑見 skill 安裝位置） |
+| 更新到最新版 | 下載官方 install.sh 到暫存區後本機執行 --install-only（不可直接 curl | bash） |
+| 開關子代理面板 | configure.sh --subagent-rows=on（或 off） |
+
+#### coralline-codex　完整指令
+
+| 用途 | 指令 |
+|---|---|
+| 設定精靈 | coralline-codex configure |
+| 預覽所有主題 | coralline-codex preview |
+| 看額度 | coralline-codex usage |
+| 驗證安裝 | coralline-codex verify |
+| 更新 | 進本機 checkout 跑 git pull --ff-only，再 ./install.sh --update --shell-hook auto |
+| 移除 | coralline-codex uninstall |
+| 單次停用 | CORALLINE_CODEX_DISABLE=1 codex --version |
 
 ## 排程（共 5 支）
 
