@@ -142,15 +142,21 @@
 | **coralline** | 自動顯示（settings.json 的 statusLine） | 終端機狀態列：顯示模型／git 分支／5h 與 7d 額度用量。原連結 github.com/Nanako0129/coralline |
 | **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
 
+## 小習慣（共 1 項）
+
+| 習慣 | 口頭禪 | 用途 |
+|---|---|---|
+| **MarkItDown 轉檔** | 某檔案 轉md／轉markdown | uvx --from markitdown markitdown <檔案> > 輸出.md；把 PDF/Word/PPT/Excel/圖片等轉成 Markdown 文字 |
+
 ## 排程（共 5 支）
 
 > 每天凌晨自動跑的工作（macOS launchd）。「未載入」代表那支今天不會跑，且不會有人通知你。
 
 | 排程 | label | 時間 | 引擎 | 狀態 |
 |---|---|---|---|---|
-| **晨報** | `uai-morning` | 每天 04:30 | claude_task | 運行中 |
-| **活動雷達** | `uai-events` | 每天 04:40 | agy | 運行中 |
+| **晨報** | `uai-morning` | 每天 04:30 | claude_task | 停用 |
+| **活動雷達** | `uai-events` | 每天 04:40 | agy | 停用 |
 | **全域醫生** | `uai-doctor` | 每天 04:45 | agy | 運行中 |
 | **使用洞察** | `uai-insights` | 每週五 04:55 | insights | 運行中 |
-| **MSI排程同步** | `uai-pull-msi` | 每天 05:00 | shell | 未載入 |
+| **MSI排程同步** | `uai-pull-msi` | 每天 05:00 | shell | 運行中 |
 
