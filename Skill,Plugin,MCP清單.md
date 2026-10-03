@@ -145,10 +145,28 @@
 | 習慣 | 口頭禪 | 用途 |
 |---|---|---|
 | **MarkItDown 轉檔** | 某檔案 轉md／轉markdown | uvx --from markitdown markitdown <檔案> > 輸出.md；把 PDF/Word/PPT/Excel/圖片等轉成 Markdown 文字 |
-| **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
+| **mole** | mo clean（預覽加 --dry-run） | Mac深度清快取。原連結 github.com/tw93/mole |
 | **newmd** | newmd 檔名（不用打 .md） | zsh function：自動建立 檔名.md 並用文字編輯 App 開啟 |
 | **coralline-claudecode** | 自動顯示；詳見展開 | CLI Statusline。原連結 github.com/Nanako0129/coralline |
 | **coralline-codex** | coralline-codex configure／preview／usage／verify | CLI Statusline。原連結 github.com/waynehacking8/coralline-codex |
+
+#### mole　完整指令
+
+| 用途 | 指令 |
+|---|---|
+| 主選單 | mo |
+| 清快取 | mo clean（--dry-run 預覽） |
+| 移除 App | mo uninstall（--dry-run 預覽） |
+| 重整快取/服務 | mo optimize（--dry-run 預覽） |
+| 分析磁碟用量 | mo analyze |
+| 系統健康監控 | mo status |
+| 清理紀錄 | mo history（--json 匯出） |
+| 清專案殘留檔 | mo purge（--dry-run 預覽） |
+| 找殘留安裝檔 | mo installer（--dry-run 預覽） |
+| Touch ID for sudo | mo touchid |
+| shell 自動完成 | mo completion |
+| 更新本體 | mo update（或 mo update --nightly） |
+| 移除 Mole | mo remove |
 
 #### coralline-claudecode　完整指令
 
