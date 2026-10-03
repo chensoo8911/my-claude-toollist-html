@@ -147,8 +147,8 @@
 | **MarkItDown 轉檔** | 某檔案 轉md／轉markdown | uvx --from markitdown markitdown <檔案> > 輸出.md；把 PDF/Word/PPT/Excel/圖片等轉成 Markdown 文字 |
 | **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
 | **newmd** | newmd 檔名（不用打 .md） | zsh function：自動建立 檔名.md 並用文字編輯 App 開啟 |
-| **coralline（Claude Code）** | 自動顯示；詳見展開 | 終端機狀態列：模型／git 分支／5h7d額度。原連結 github.com/Nanako0129/coralline |
-| **coralline-codex** | coralline-codex configure／preview／usage／verify | Codex CLI 版狀態列，獨立指令（非自動掛載）。原連結 github.com/waynehacking8/coralline-codex |
+| **coralline（Claude Code）** | 自動顯示；詳見展開 | CLI Statusline。原連結 github.com/Nanako0129/coralline |
+| **coralline-codex** | coralline-codex configure／preview／usage／verify | CLI Statusline。原連結 github.com/waynehacking8/coralline-codex |
 
 #### coralline（Claude Code）　完整指令
 
