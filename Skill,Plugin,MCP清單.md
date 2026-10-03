@@ -141,12 +141,13 @@
 | **審查協議** | 對話打 .  | Claude 讀雜工落檔做漏洞審查＋修正定稿（三劍客的主廚環節） |
 | **coralline** | 自動顯示（settings.json 的 statusLine） | 終端機狀態列：顯示模型／git 分支／5h 與 7d 額度用量。原連結 github.com/Nanako0129/coralline |
 
-## 小習慣（共 2 項）
+## 小習慣（共 3 項）
 
 | 習慣 | 口頭禪 | 用途 |
 |---|---|---|
 | **MarkItDown 轉檔** | 某檔案 轉md／轉markdown | uvx --from markitdown markitdown <檔案> > 輸出.md；把 PDF/Word/PPT/Excel/圖片等轉成 Markdown 文字 |
 | **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
+| **newmd** | newmd 檔名（不用打 .md） | zsh function：自動建立 檔名.md 並用文字編輯 App 開啟 |
 
 ## 排程（共 5 支）
 
