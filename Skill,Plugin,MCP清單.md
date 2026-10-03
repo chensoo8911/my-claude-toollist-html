@@ -145,10 +145,10 @@
 | 習慣 | 口頭禪 | 用途 |
 |---|---|---|
 | **MarkItDown 轉檔** | 某檔案 轉md／轉markdown | uvx --from markitdown markitdown <檔案> > 輸出.md；把 PDF/Word/PPT/Excel/圖片等轉成 Markdown 文字 |
-| **mole** | mo clean（預覽加 --dry-run） | Mac深度清快取。原連結 github.com/tw93/mole |
+| **mole** | mo clean（預覽加 --dry-run） | Mac深度清快取。原連結 [tw93/mole](https://github.com/tw93/mole) |
 | **newmd** | newmd 檔名（不用打 .md） | zsh function：自動建立 檔名.md 並用文字編輯 App 開啟 |
-| **coralline-claudecode** | 自動顯示；詳見展開 | CLI Statusline。原連結 github.com/Nanako0129/coralline |
-| **coralline-codex** | coralline-codex configure／preview／usage／verify | CLI Statusline。原連結 github.com/waynehacking8/coralline-codex |
+| **coralline-claudecode** | 自動顯示；詳見展開 | CLI Statusline。原連結 [Nanako0129/coralline](https://github.com/Nanako0129/coralline) |
+| **coralline-codex** | coralline-codex configure／preview／usage／verify | CLI Statusline。原連結 [waynehacking8/coralline-codex](https://github.com/waynehacking8/coralline-codex) |
 
 #### mole　完整指令
 
